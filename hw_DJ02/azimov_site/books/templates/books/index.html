@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <h1>Добро пожаловать на сайт про Айзека Азимова</h1>
+
+    <p>Здесь вы найдете информацию о великих произведениях научной фантастики, созданных Айзеком Азимовым.</p>
+
+    <img src="{% static 'books\img\azimov.jpg' %}" class="img-fluid" alt="Айзек Азимов" width="500">
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<h1>О книге</h1>
+<p>Айзек Азимов — один из самых известных и продуктивных писателей-фантастов, автор множества книг, среди которых "Основание", "Роботы" и многие другие.</p>
+<img src="{% static 'books\img\azimov_books.jpg' %}" class="img-fluid" alt="О книге" width="500">
+{% endblock %}
